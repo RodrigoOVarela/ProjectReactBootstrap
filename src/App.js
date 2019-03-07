@@ -8,17 +8,20 @@ class App extends Component {
       <div className="container-fluid">
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
 
-        <button className="navbar-toggler" type="button" data-togler="collapse" data-target="#navbarMainToggler"
-          aria-controls="navbarMainToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-          </button>
 
           <a className="navbar-brand" href="#"><i class="fas fa-eye"></i>&nbsp;Logo</a>
+
           <div className="navbar-nav">
             <a className="nav-item nav-link" href="#">Home</a>
             <a className="nav-item nav-link" href="#">Chanel</a>
             <a className="nav-item nav-link" href="#">Login</a>
           </div>
+
+          <button className="navbar-toggler" type="button" data-togler="collapse" data-target="#navbarMainToggler"
+            aria-controls="navbarMainToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          
         </nav>
       </div>
     );
