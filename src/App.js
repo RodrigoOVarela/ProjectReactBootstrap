@@ -27,13 +27,22 @@ class App extends Component {
                 <div className="input-group-prepend">
                   <span className="input-group-text">@</span>
                 </div>
-                <input type="text" className="form-control mr-3" placeholder="Username"/>&nbsp;
+                <input type="text" className="form-control mr-3" placeholder="Username" />&nbsp;
                 <button className="btn btn-outline-success">Login</button>
               </div>
             </form>
-
           </section>
         </nav>
+
+        <footer className="container col-12 pt-3 footer bg-dark text-light text-center">
+          <container className="container col-8 col-md-4 col-md-lg-4 d-flex justify-content-around">
+            <i className="fab fa-facebook"></i>
+            <i className="fab fa-linkedin"></i>
+            <i className="fab fa-instagram"></i>
+            <i className="fab fa-twitter-square"></i>
+          </container>
+        </footer>
+
       </div>
     );
   }
