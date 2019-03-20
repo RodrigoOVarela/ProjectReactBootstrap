@@ -48,7 +48,7 @@ return (
     </section>
   </nav>
 
-  <section id="carouselSection" className="carousel slide" data-ride="carousel">
+  <section id="carouselSection" className="carousel slide" data-ride="carousel" data-interval="3000">
     <ol className="carousel-indicators">
       <li data-target="#carouselSection" data-slide-to="0" className="active"></li>
       <li data-target="#carouselSection" data-slide-to="1"></li>
@@ -67,6 +67,18 @@ return (
         <img src="https://via.placeholder.com/600/24f355" alt="Imagem 3" className="d-block w-100 image-fluid"/>
       </div>
     </div>
+
+    <div className="carousel-control-prev" href="#carouselSection" role="button" data-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="sr-only">Previous</span>
+    </div>
+
+    <div className="carousel-control-next" href="#carouselSection" role="button" data-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="sr-only">Next</span>
+    </div>
+
+
   </section>
 
   <section className="container p-2">
